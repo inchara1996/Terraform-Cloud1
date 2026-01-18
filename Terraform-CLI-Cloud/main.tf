@@ -10,9 +10,10 @@ variable "v1" {
 
 variable "v2" {
   type    = string
-  default = "hello good evening"
+  default = "hello good afternoon"
 }
 
 output "o1" {
   value = local_file.inchara.id
+
 }
