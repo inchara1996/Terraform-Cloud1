@@ -5,7 +5,7 @@ resource "local_file" "inchara" {
 
 variable "v1" {
   type    = string
-  default = "abc.txt"
+  default = "xyz.txt"
 }
 
 variable "v2" {
@@ -17,3 +17,4 @@ output "o1" {
   value = local_file.inchara.id
 
 }
+
